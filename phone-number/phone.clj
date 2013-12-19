@@ -20,6 +20,7 @@
   (apply str (drop 6 (number phone-number))))
 
 (defn pretty-print [phone-number]
-  (str "(" (area-code phone-number) ")"
-       \space (exchange phone-number)
-       \- (line-number phone-number)))
+  (format "(%s) %s-%s"
+          (area-code phone-number)
+          (exchange phone-number)
+          (line-number phone-number)))

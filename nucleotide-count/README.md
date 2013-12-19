@@ -1,10 +1,13 @@
 # Nucleotide Count
 
-Write a class `DNA` that takes a DNA string and tells us how many times each nucleotide occurs in the string.
+Write a class `DNA` that takes a DNA string and tells us how many times each
+nucleotide occurs in the string.
 
-DNA is represented by an alphabet of the following symbols: 'A', 'C', 'G', and 'T'.
+DNA is represented by an alphabet of the following symbols: 'A', 'C', 'G', and
+'T'.
 
-Each symbol represents a nucleotide, which is a fancy name for the particular molecules that happen to make up a large part of DNA.
+Each symbol represents a nucleotide, which is a fancy name for the particular
+molecules that happen to make up a large part of DNA.
 
 Shortest intro to biochemistry EVAR:
 
@@ -18,7 +21,8 @@ I'm not going to talk about lipids because they're crazy complex.
 
 So back to nucleotides.
 
-There are 5 types of nucleotides. 4 of these occur in DNA: `A`, `C`, `G`, and `T`. 4 occur in RNA: `A`, `C`, `G`, `U`.
+There are 5 types of nucleotides. 4 of these occur in DNA: `A`, `C`, `G`, and
+`T`. 4 occur in RNA: `A`, `C`, `G`, `U`.
 
 There are no other nucleotides.
 
@@ -26,4 +30,5 @@ There are no other nucleotides.
 
 ## Source
 
-The Calculating DNA Nucleotides_problem at Rosalind [view source](http://rosalind.info/problems/dna/)
+The Calculating DNA Nucleotides_problem at Rosalind [view
+source](http://rosalind.info/problems/dna/)
